@@ -1,0 +1,48 @@
+# HW grading scale: check(+) --> excellent (good code and analysis) 
+#                   check    --> satisfactory (minor shortcomings in code and/or analysis)
+#                   check(-) --> significant problems w/code or analysis
+
+
+1) Problem 1 (area.cpp embellishments): 
+
+* Your code looks ok, though 1 minor nitpick is that the area function is a little  
+counterintuitive since you pass in the radius squared. (Better to write functions
+where it's clear as possible what's being computed.)
+
+* Even though version control tools like GitHub make this less important (since you
+can and should comment what you changed with each commit), it's still a good practice
+to actually write in the comments what you changed in the present code version (e.g.,
+implemented items 1-6 in the todo list).
+
+2)Problem 2 (sum up/down): 
+
+* As mentioned in class, you need to go to rather high N (~10**7) to see the full pattern. With such
+a large number, it's best to loop over the different N in logarithmic intervals (see the problem
+hint on the webpage) so it doesn't take too long and so the graph isn't crammed full of data points.
+
+* The analysis sounds a bit confused. Hint: what problem in one of our early sessions does the present one 
+resemble? If a have a "big" number of the order of 1 or 10 or something, and I add a tiny number (< machine precision),
+what happens?  
+ 
+3) Problem 3 (bessel functions): 
+
+
+* You identified the upward method as better for large x. What about at small x wherehe relative
+difference is of order 1? Can you identify which one (if any) is most accurate 
+in this region? Would the gsl results be of any help here?
+
+
+
+4) Extra problem
+
+* You started it and your code looks ok, but there's no plots or analysis.  
+
+* To really answer if these are randomly distributed, you need to bin up the results and make a histogram
+to see if if approaches a gaussian distribution (central limit and all that).
+
+##### HW grade = check 
+
+
+* Please make separate HW1, HW2,etc. subfolders.  
+
+
