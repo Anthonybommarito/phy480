@@ -1,0 +1,8 @@
+Your codes look fine and the analysis is not crazy, but it's missing a few things:
+
+1) Always include fit lines (and corresponding fit params) in your figures
+2) Where's the GSL results on the figure?
+3) The Milne results look slightly off (also, why so few points?)
+4) Include .plt files for ease of reproducing/checking results
+
+Grade: check
