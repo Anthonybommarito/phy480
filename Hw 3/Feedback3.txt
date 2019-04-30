@@ -1,0 +1,13 @@
+Grades:  check(-) :  some major problems with the codes and/or analysis
+         check    :  good (with some minor gaps in your results/analysis) 
+         check(+) :  excellent 
+         check(++) : excellent with one of the BONUS problems completed
+
+A few suggestions for the analysis:  
+
+1) It'd be helpful to plot the exact wf on your plots per the problem statement. 
+2) A bit more detail is needed on the analysis for #3. Hint: Physically, what does b control?
+3) b should have no bearing on the normalization of psi(r). A good way to check this is to 
+actually compute the normalization integral.  
+
+Grade: check
