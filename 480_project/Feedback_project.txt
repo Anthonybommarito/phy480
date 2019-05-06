@@ -1,0 +1,5 @@
+Not bad. I would've liked to see some error analysis (e.g., different order 
+ODE solvers, different error tolerances, etc.). Energy drift is unavoidable,
+but this seems a bit large.
+
+Grade: check 
